@@ -1,0 +1,30 @@
+{
+  "name": "rework-custom-media",
+  "version": "0.1.0",
+  "description": "W3C-style custom media queries for Rework",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "rework": "^1.0.0"
+  },
+  "scripts": {
+    "test": "mocha --no-colors",
+    "test-watch": "mocha --slow 30 --reporter spec --watch"
+  },
+  "keywords": [
+    "css",
+    "custom-media",
+    "rework",
+    "media-queries",
+    "media-query",
+    "preprocessor",
+    "rework-plugin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reworkcss/rework-vars.git"
+  }
+}

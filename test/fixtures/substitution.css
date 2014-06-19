@@ -1,0 +1,18 @@
+@custom-media --medium-window screen and (min-width:600px);
+@custom-media --large-window screen and (min-width:900px);
+
+body {
+  font-size: 12px;
+}
+
+@media (--medium-window) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (--large-window) {
+  body {
+    font-size: 20px;
+  }
+}

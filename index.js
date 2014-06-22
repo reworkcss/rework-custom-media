@@ -26,13 +26,14 @@ module.exports = function customMedia(ast) {
       var replacement = map[name];
       var column = rule.position.start.column;
       var line = rule.position.start.line;
+      var source = rule.position.source;
 
       if (replacement) {
         return replacement;
       } else {
         console.warn(
           'WARNING: undefined CSS custom media alias "' + name + '" at ' +
-          rule.position.start.line + ':' + rule.position.start.column + '.\n' +
+          line + ':' + column + (source ? ' in ' + source : '') + '.\n' +
           'The rule has been removed from the output. Please check your ' +
           '@custom-media definitions.'
         );

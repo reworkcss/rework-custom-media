@@ -8,7 +8,7 @@ function fixture(name) {
 }
 
 function compareFixtures(name) {
-  var actual = rework(fixture(name)).use(media).toString().trim();
+  var actual = rework(fixture(name), { source: name + '.css' }).use(media).toString().trim();
   var expected = fixture(name + '.out');
   return assert.equal(actual, expected);
 }

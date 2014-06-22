@@ -1,6 +1,6 @@
 {
   "name": "rework-custom-media",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "W3C-style custom media queries for Rework",
   "files": [
     "index.js"
@@ -25,6 +25,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reworkcss/rework-vars.git"
+    "url": "https://github.com/reworkcss/rework-custom-media.git"
   }
 }

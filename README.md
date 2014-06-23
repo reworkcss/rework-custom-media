@@ -1,6 +1,6 @@
 # rework-custom-media [![Build Status](https://travis-ci.org/reworkcss/rework-custom-media.png)](https://travis-ci.org/reworkcss/rework-custom-media)
 
-A [Rework](https://github.com/reworkcss/rework) plugin to add support for the
+A [Rework](https://github.com/reworkcss/rework) (`>=1.0.0`) plugin to add support for the
 [W3C-style CSS Custom Media Queries](http://dev.w3.org/csswg/mediaqueries/#custom-mq) syntax.
 
 ## Installation

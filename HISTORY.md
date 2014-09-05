@@ -1,5 +1,9 @@
 === HEAD
 
+=== 0.2.0 (September 5, 2014)
+
+* Add support for custom media queries defined in JavaScript.
+
 === 0.1.1 (June 21, 2014)
 
 * Add source file to console warnings.

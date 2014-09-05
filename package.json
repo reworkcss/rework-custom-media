@@ -1,6 +1,6 @@
 {
   "name": "rework-custom-media",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "W3C-style custom media queries for Rework",
   "files": [
     "index.js"

@@ -23,7 +23,24 @@ var media = require('rework-custom-media');
 var css = fs.readFileSync('build/build.css', 'utf8').toString();
 
 // process css using rework-custom-media
-css = rework(css).use(media).toString();
+css = rework(css).use(media()).toString();
+```
+
+## Options
+
+### map
+
+Optionally, you may define the `<media-query-list>` for each `<extension-name>`
+in a JavaScript object that is passed to the function.
+
+```js
+var options = {
+  map: {
+    '--wide-screen': 'screen and (min-width:900px)'
+  }
+}
+
+var out = rework(css).use(media(options)).toString();
 ```
 
 ## CSS syntax

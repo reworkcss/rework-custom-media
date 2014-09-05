@@ -1,0 +1,15 @@
+body {
+  font-size: 12px;
+}
+
+@media (--medium-window) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (--large-window) {
+  body {
+    font-size: 20px;
+  }
+}

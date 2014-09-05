@@ -6,7 +6,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "mocha": "~1.14.0",
+    "mocha": "^1.21.0",
     "rework": "^1.0.0"
   },
   "scripts": {

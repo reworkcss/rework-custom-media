@@ -18,6 +18,10 @@ describe('rework-custom-media', function () {
     compareFixtures('substitution');
   });
 
+  it('replaces all extension names in media queries', function () {
+    compareFixtures('multiple-substitutions');
+  });
+
   it('ignores media features that reference an undefined extension name', function () {
     compareFixtures('undefined');
   });

@@ -2,7 +2,7 @@
  * Constants.
  */
 
-var EXTENSION_RE = /\((--[\w-]+)\)/;
+var EXTENSION_RE = /\((--[\w-]+)\)/g;
 
 /**
  * Module export.

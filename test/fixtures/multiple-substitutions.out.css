@@ -1,0 +1,9 @@
+body {
+  font-size: 12px;
+}
+
+@media all and (max-width:420px), all and (min-width:420px) and (max-width:1024px) {
+  body {
+    font-size: 20px;
+  }
+}
